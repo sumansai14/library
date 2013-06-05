@@ -1,0 +1,445 @@
+[Fri May 24 01:40:41 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static, referer: http://library.localhost/admin/
+[Fri May 24 12:10:41 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static, referer: http://library.localhost/admin/
+[Fri May 24 01:41:34 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static, referer: http://library.localhost/admin/
+[Fri May 24 12:11:34 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static, referer: http://library.localhost/admin/
+[Fri May 24 01:42:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static, referer: http://library.localhost/admin/
+[Fri May 24 12:12:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static, referer: http://library.localhost/admin/
+[Fri May 24 12:12:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static, referer: http://library.localhost/admin/
+[Fri May 24 01:42:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static, referer: http://library.localhost/admin/
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1] mod_wsgi (pid=8053): Exception occurred processing WSGI script '/home/sai/django/wisecells/library/apache/django.wsgi'.
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     return debug.technical_500_response(request, *exc_info)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 66, in technical_500_response
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     html = reporter.get_traceback_html()
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 287, in get_traceback_html
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     return t.render(c)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     return self._render(context)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     return self.nodelist.render(context)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     bit = self.render_node(node, context)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     return node.render(context)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 84, in render
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     output = self.filter_expression.resolve(context)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 599, in resolve
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     new_obj = func(obj, *arg_vals)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/defaultfilters.py", line 718, in date
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     return format(value, arg)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 310, in format
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     return df.format(format_string)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 33, in format
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 214, in r
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     return self.format('D, j M Y H:i:s O')
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 33, in format
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/encoding.py", line 71, in force_unicode
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     s = unicode(s)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 121, in __unicode_cast
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     return func(*self.__args, **self.__kw)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 86, in ugettext
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     return _trans.ugettext(message)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 278, in ugettext
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     return do_translate(message, 'ugettext')
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 268, in do_translate
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     _default = translation(settings.LANGUAGE_CODE)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 183, in translation
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     default_translation = _fetch(settings.LANGUAGE_CODE)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 160, in _fetch
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     app = import_module(appname)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 35, in import_module
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1]     __import__(name)
+[Fri May 24 05:17:49 2013] [error] [client 127.0.0.1] ImportError: No module named bookscrispy-forms
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1] mod_wsgi (pid=8244): Exception occurred processing WSGI script '/home/sai/django/wisecells/library/apache/django.wsgi'.
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return debug.technical_500_response(request, *exc_info)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 66, in technical_500_response
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     html = reporter.get_traceback_html()
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 287, in get_traceback_html
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return t.render(c)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return self._render(context)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return self.nodelist.render(context)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     bit = self.render_node(node, context)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return node.render(context)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 84, in render
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     output = self.filter_expression.resolve(context)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 599, in resolve
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     new_obj = func(obj, *arg_vals)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/defaultfilters.py", line 718, in date
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return format(value, arg)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 310, in format
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return df.format(format_string)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 33, in format
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 214, in r
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return self.format('D, j M Y H:i:s O')
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 33, in format
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/encoding.py", line 71, in force_unicode
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     s = unicode(s)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 121, in __unicode_cast
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return func(*self.__args, **self.__kw)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 86, in ugettext
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return _trans.ugettext(message)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 278, in ugettext
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return do_translate(message, 'ugettext')
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 268, in do_translate
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     _default = translation(settings.LANGUAGE_CODE)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 183, in translation
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     default_translation = _fetch(settings.LANGUAGE_CODE)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 160, in _fetch
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     app = import_module(appname)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 35, in import_module
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     __import__(name)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1] ImportError: No module named bookscrispy-forms
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1] mod_wsgi (pid=8243): Exception occurred processing WSGI script '/home/sai/django/wisecells/library/apache/django.wsgi'.
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return debug.technical_500_response(request, *exc_info)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 66, in technical_500_response
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     html = reporter.get_traceback_html()
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 287, in get_traceback_html
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return t.render(c)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return self._render(context)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return self.nodelist.render(context)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     bit = self.render_node(node, context)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return node.render(context)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 84, in render
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     output = self.filter_expression.resolve(context)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 599, in resolve
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     new_obj = func(obj, *arg_vals)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/defaultfilters.py", line 718, in date
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return format(value, arg)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 310, in format
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return df.format(format_string)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 33, in format
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 214, in r
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return self.format('D, j M Y H:i:s O')
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 33, in format
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/encoding.py", line 71, in force_unicode
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     s = unicode(s)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 121, in __unicode_cast
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return func(*self.__args, **self.__kw)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 86, in ugettext
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return _trans.ugettext(message)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 278, in ugettext
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     return do_translate(message, 'ugettext')
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 268, in do_translate
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     _default = translation(settings.LANGUAGE_CODE)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 183, in translation
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     default_translation = _fetch(settings.LANGUAGE_CODE)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 160, in _fetch
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     app = import_module(appname)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 35, in import_module
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1]     __import__(name)
+[Fri May 24 05:18:01 2013] [error] [client 127.0.0.1] ImportError: No module named bookscrispy-forms
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1] mod_wsgi (pid=8245): Exception occurred processing WSGI script '/home/sai/django/wisecells/library/apache/django.wsgi'.
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return debug.technical_500_response(request, *exc_info)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 66, in technical_500_response
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     html = reporter.get_traceback_html()
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 287, in get_traceback_html
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return t.render(c)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return self._render(context)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return self.nodelist.render(context)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     bit = self.render_node(node, context)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return node.render(context)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 84, in render
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     output = self.filter_expression.resolve(context)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 599, in resolve
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     new_obj = func(obj, *arg_vals)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/defaultfilters.py", line 718, in date
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return format(value, arg)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 310, in format
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return df.format(format_string)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 33, in format
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 214, in r
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return self.format('D, j M Y H:i:s O')
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 33, in format
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/encoding.py", line 71, in force_unicode
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     s = unicode(s)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 121, in __unicode_cast
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return func(*self.__args, **self.__kw)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 86, in ugettext
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return _trans.ugettext(message)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 278, in ugettext
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return do_translate(message, 'ugettext')
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 268, in do_translate
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     _default = translation(settings.LANGUAGE_CODE)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 183, in translation
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     default_translation = _fetch(settings.LANGUAGE_CODE)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 160, in _fetch
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     app = import_module(appname)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 35, in import_module
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     __import__(name)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1] ImportError: No module named bookscrispy-forms
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1] mod_wsgi (pid=8246): Exception occurred processing WSGI script '/home/sai/django/wisecells/library/apache/django.wsgi'.
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return debug.technical_500_response(request, *exc_info)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 66, in technical_500_response
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     html = reporter.get_traceback_html()
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 287, in get_traceback_html
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return t.render(c)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return self._render(context)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return self.nodelist.render(context)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     bit = self.render_node(node, context)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return node.render(context)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 84, in render
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     output = self.filter_expression.resolve(context)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 599, in resolve
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     new_obj = func(obj, *arg_vals)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/defaultfilters.py", line 718, in date
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return format(value, arg)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 310, in format
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return df.format(format_string)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 33, in format
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 214, in r
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return self.format('D, j M Y H:i:s O')
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 33, in format
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/encoding.py", line 71, in force_unicode
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     s = unicode(s)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 121, in __unicode_cast
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return func(*self.__args, **self.__kw)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 86, in ugettext
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return _trans.ugettext(message)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 278, in ugettext
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     return do_translate(message, 'ugettext')
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 268, in do_translate
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     _default = translation(settings.LANGUAGE_CODE)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 183, in translation
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     default_translation = _fetch(settings.LANGUAGE_CODE)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 160, in _fetch
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     app = import_module(appname)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 35, in import_module
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1]     __import__(name)
+[Fri May 24 05:18:05 2013] [error] [client 127.0.0.1] ImportError: No module named bookscrispy-forms
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1] mod_wsgi (pid=8352): Exception occurred processing WSGI script '/home/sai/django/wisecells/library/apache/django.wsgi'.
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     return debug.technical_500_response(request, *exc_info)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 66, in technical_500_response
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     html = reporter.get_traceback_html()
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 287, in get_traceback_html
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     return t.render(c)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     return self._render(context)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     return self.nodelist.render(context)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     bit = self.render_node(node, context)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     return node.render(context)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 84, in render
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     output = self.filter_expression.resolve(context)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 599, in resolve
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     new_obj = func(obj, *arg_vals)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/defaultfilters.py", line 718, in date
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     return format(value, arg)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 310, in format
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     return df.format(format_string)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 33, in format
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 214, in r
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     return self.format('D, j M Y H:i:s O')
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 33, in format
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/encoding.py", line 71, in force_unicode
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     s = unicode(s)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 121, in __unicode_cast
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     return func(*self.__args, **self.__kw)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 86, in ugettext
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     return _trans.ugettext(message)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 278, in ugettext
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     return do_translate(message, 'ugettext')
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 268, in do_translate
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     _default = translation(settings.LANGUAGE_CODE)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 183, in translation
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     default_translation = _fetch(settings.LANGUAGE_CODE)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 160, in _fetch
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     app = import_module(appname)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 35, in import_module
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1]     __import__(name)
+[Fri May 24 05:19:28 2013] [error] [client 127.0.0.1] ImportError: No module named bookscrispy_forms
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1] mod_wsgi (pid=8353): Exception occurred processing WSGI script '/home/sai/django/wisecells/library/apache/django.wsgi'.
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1] Traceback (most recent call last):
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/wsgi.py", line 241, in __call__
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     response = self.get_response(request)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 179, in get_response
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     response = self.handle_uncaught_exception(request, resolver, sys.exc_info())
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/core/handlers/base.py", line 221, in handle_uncaught_exception
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     return debug.technical_500_response(request, *exc_info)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 66, in technical_500_response
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     html = reporter.get_traceback_html()
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/views/debug.py", line 287, in get_traceback_html
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     return t.render(c)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 140, in render
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     return self._render(context)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 134, in _render
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     return self.nodelist.render(context)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 823, in render
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     bit = self.render_node(node, context)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 74, in render_node
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     return node.render(context)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/debug.py", line 84, in render
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     output = self.filter_expression.resolve(context)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/base.py", line 599, in resolve
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     new_obj = func(obj, *arg_vals)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/template/defaultfilters.py", line 718, in date
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     return format(value, arg)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 310, in format
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     return df.format(format_string)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 33, in format
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 214, in r
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     return self.format('D, j M Y H:i:s O')
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/dateformat.py", line 33, in format
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     pieces.append(force_unicode(getattr(self, piece)()))
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/encoding.py", line 71, in force_unicode
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     s = unicode(s)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/functional.py", line 121, in __unicode_cast
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     return func(*self.__args, **self.__kw)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/__init__.py", line 86, in ugettext
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     return _trans.ugettext(message)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 278, in ugettext
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     return do_translate(message, 'ugettext')
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 268, in do_translate
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     _default = translation(settings.LANGUAGE_CODE)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 183, in translation
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     default_translation = _fetch(settings.LANGUAGE_CODE)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/translation/trans_real.py", line 160, in _fetch
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     app = import_module(appname)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]   File "/usr/local/lib/python2.7/dist-packages/django/utils/importlib.py", line 35, in import_module
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1]     __import__(name)
+[Fri May 24 05:19:29 2013] [error] [client 127.0.0.1] ImportError: No module named bookscrispy_forms
+[Sat May 25 05:37:00 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:37:00 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:37:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:37:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:37:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:37:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:37:20 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:37:20 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:37:22 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:37:22 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:37:22 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:37:22 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:37:23 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:37:23 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:37:23 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:37:23 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:37:23 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:37:23 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:37:23 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:37:23 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:37:23 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:37:23 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:37:24 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:37:24 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:38:28 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:38:28 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:38:30 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:38:30 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:38:30 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:38:30 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:38:30 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:38:30 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:38:31 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:38:31 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:38:31 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:38:31 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:38:31 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:38:31 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:38:31 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:38:31 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:38:32 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:38:32 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:38:32 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:38:32 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:39:32 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 05:39:32 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 05:39:33 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 05:39:33 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 05:39:33 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 05:39:33 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 05:39:34 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 05:39:34 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 05:39:34 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 05:39:34 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 05:39:59 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 05:39:59 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 05:40:00 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 05:40:00 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 05:40:00 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 05:40:00 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 05:40:00 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 05:40:00 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 05:40:01 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 05:40:01 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 05:40:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 05:40:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 05:40:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 05:40:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 05:40:15 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 16:10:15 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 05:40:15 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 16:10:15 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 05:40:15 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/signup/
+[Sat May 25 16:10:15 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/signup/
+[Sat May 25 05:41:02 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 16:11:02 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 05:41:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 16:11:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/
+[Sat May 25 16:11:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/css, referer: http://library.localhost/books/
+[Sat May 25 05:41:03 2013] [error] [client 127.0.0.1] File does not exist: /home/sai/django/wisecells/library/static/js, referer: http://library.localhost/books/

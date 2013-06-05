@@ -1,0 +1,44 @@
+{% extends "base.html" %}
+{% block content %}
+	<div class="well well-big">
+		<h2>Issued List</h2>
+		<table class="table table-hover">
+		<tr><th colspan="" rowspan="" headers="" scope="">Book Name</th>
+		<th colspan="" rowspan="" headers="" scope="">Author Name</th>
+		 </tr>
+	{% for book in issued_list %}
+	
+
+		 <tr>
+		 	<td colspan="" rowspan="" headers=""><a href="/books/{{ book.slug }}" title="">{{ book.name }} </a> </td>
+		 	<td colspan="" rowspan="" headers="">{{ book.author }}</td>
+		 	<td colspan="" rowspan="" headers=""> <a href="/books/{{ book.id }}/return" title=""><button class="btn">Return Request</button></a>  </td>
+		 </tr>
+	
+	
+	{% endfor %}
+	</table>
+	</div>
+
+		<div class="well well-big">
+		<h2>Request List</h2>
+		<table class="table table-hover">
+		<tr><th colspan="" rowspan="" headers="" scope="">Book Name</th>
+		<th colspan="" rowspan="" headers="" scope="">Author Name</th>
+		 </tr>
+	{% for request in request_list %}
+	
+
+		 <tr>
+		 	<td colspan="" rowspan="" headers="">{{ request.book.name }} </td>
+		 	<td colspan="" rowspan="" headers="">{{ request.book.author }}</td>
+		 	<td colspan="" rowspan="" headers=""> <a href="/{{ book.id }}/return" title=""><button class="btn">Cancel Request</button></a></td>
+
+		 </tr>
+	
+	
+	{% endfor %}
+	</table>
+	</div>
+	
+{% endblock  %}

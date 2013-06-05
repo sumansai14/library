@@ -1,0 +1,17 @@
+{% extends "base.html" %}
+{% block content %}
+	{{ text }}
+	<div class="container">
+    <h2 class="add-books-heading"> <br /><br /> Add Books </h2>
+    <form action="/add_books/" method="POST" class="form-horizontal"> {% csrf_token %}
+        <p><input type="text" name="book" id="book" value="" class="input-small" placeholder="Book Name"/></p>
+        <p><input type="text" name="author" id="author" value="" class="input-small" placeholder="Author"/></p>
+        <p><input type="number" name="number" id="number" value="" class="number" placeholder="copies"/></p>
+        <button type="submit" name="submit" value="submit-value" class="btn btn-large btn-primary">Add Book/s </button>
+        <button type="reset" name="reset" value="reset-value" class="btn btn-large">Reset</button>
+    </form>
+    
+</div> 
+
+{% endblock content %}
+

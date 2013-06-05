@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+{% block content %}
+{{ text }}
+	<div class="well well-big">
+		<h2>Issue requests</h2>
+		<table class="table table-hover">
+		<tr><th colspan="" rowspan="" headers="" scope="">Book Name</th>
+		<th colspan="" rowspan="" headers="" scope="">Author Name</th>
+		<th colspan="" rowspan="" headers="" scope="">Requested By</th>
+		 </tr>
+	{% for issue_request in issue_request_list %}
+	
+
+		 <tr>
+		 	<td colspan="" rowspan="" headers=""><a href="/books/{{ issue_request.book.slug }}" title="">{{ issue_request.book.name }} </a> </td>
+		 	<td colspan="" rowspan="" headers="">{{ issue_request.book.author }}</td>
+		 	<td colspan="" rowspan="" headers="">{{ issue_request.user.username }}</td>
+		 	<td colspan="" rowspan="" headers=""> <a href="/{{ issue_request.book.id }}/issue/{{ issue_request.user.id }}" title=""><button class="btn">Issue</button></a>  </td>
+		 </tr>
+	
+	
+	{% endfor %}
+	</table>
+	</div>
+
+		<div class="well well-big">
+		<h2>Return Requests</h2>
+		<table class="table table-hover">
+		<tr><th colspan="" rowspan="" headers="" scope="">Book Name</th>
+		<th colspan="" rowspan="" headers="" scope="">Author Name</th>
+		 </tr>
+	{% for request in return_request_list %}
+	
+
+		 <tr>
+		 	<td colspan="" rowspan="" headers="">{{ request.book.name }} </td>
+		 	<td colspan="" rowspan="" headers="">{{ request.book.author }}</td>
+		 	<td colspan="" rowspan="" headers=""> <a href="/{{ book.id }}/return" title=""><button class="btn">Cancel Request</button></a></td>
+
+		 </tr>
+	
+	
+	{% endfor %}
+	</table>
+	</div>
+	
+{% endblock  %}

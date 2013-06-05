@@ -1,0 +1,8 @@
+{% extends "base.html" %}
+{% block content %}
+	<p>Name: {{ book.name }}</p>
+	<p>Author: {{ book.author }}</p>
+	<p>Copies: {{ count }}</p>
+	<a href="/request/{{ book.id }}/" title=""><button class="btn"> Request Book</button></a>
+{% endblock content %}
+
